@@ -1,0 +1,34 @@
+Table: User "users"
+id
+username
+password
+created
+modified
+
+Table: Review "reviews"
+id
+user_id
+title
+body
+rating
+media
+created
+modified
+
+Table: Message "messages"
+id
+user_id
+from_id
+title
+body
+created
+modified
+
+Table: From "from"
+id
+username
+password
+created
+modified
+
+
